@@ -1,0 +1,7 @@
+<h1>Welcome to Categories</h1>
+<h3>We deal with below categories listed, </h3>
+<ul>
+{% for cat in category_list %}
+    <li>{{ cat.cat_name }}</li>
+{% endfor %}
+</ul>
